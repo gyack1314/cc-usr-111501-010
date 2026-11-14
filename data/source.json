@@ -1,0 +1,47 @@
+{
+  "vehicles": [
+    "v1"
+  ],
+  "plugs": [
+    "p1"
+  ],
+  "tasks": [
+    {
+      "task_id": "t1",
+      "vehicle": "v1",
+      "payload_kg": 12,
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "battery_readings": [
+    {
+      "reading_id": "r1",
+      "vehicle": "v1",
+      "task_id": "t1",
+      "at": 0,
+      "meter_epoch": "e1",
+      "soc_kwh": 44,
+      "capacity_kwh": 60
+    },
+    {
+      "reading_id": "r2",
+      "vehicle": "v1",
+      "task_id": "t1",
+      "at": 6,
+      "meter_epoch": "e1",
+      "soc_kwh": 40,
+      "capacity_kwh": 60
+    }
+  ],
+  "charge_sessions": [
+    {
+      "session_id": "c1",
+      "vehicle": "v1",
+      "plug": "p1",
+      "start": 8,
+      "end": 9,
+      "energy_in_kwh": 8
+    }
+  ]
+}
